@@ -147,7 +147,7 @@ main {
     color: var(--secondary-color);
     font-size: 16px;
 }
-footer {
+.footer {
   text-align: center;
   padding: 20px;
   color: white;
@@ -156,12 +156,12 @@ footer {
   background-color: var(--primary-color);
 }
 
-footer a {
+.footer a {
     padding:5px;
     text-decoration: none;
     color: white;
 }
 
-footer p {
+.footer p {
     padding: 5px;
 }
