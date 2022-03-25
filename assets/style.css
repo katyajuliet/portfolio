@@ -1,9 +1,10 @@
 :root {
     --primary-color: #00A8A8;
+    --header-color: white;
     --secondary-color: #0C6980;
     --accent-color: #9FCCC3;
     --accent-color-2: #26F7B2;
-    --main-bg-color: #F8F2E5;
+    --main-bg-color: pink;
     --main-border-color: #1F628E;
     }
     /* root varients end */
@@ -43,19 +44,21 @@
 }
 
 header {
-    background-color: var(--accent-color);
+    background-color: pink;
     padding: 25px;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
 
 }
 
 header h1 {
     font-family: cursive;
-    color: white;
-    font-size: 34px;
+    color: var(--secondary-color);
+    font-size: 28px;
+    display: inline-flex;
+    padding-top: 20px;
 }
 
 header li {
@@ -63,8 +66,7 @@ header li {
 }
 
 
-
-.nav {
+nav {
     display: flex;
 }
 .nav-img {
@@ -76,6 +78,36 @@ header li {
     text-decoration: none; 
     border-bottom:none;
 
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.row img {
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    color: var(--secondary-color);
+    font-size: 18px;
+    text-decoration: none; 
+    border-bottom:none;
+}
+
+.row img:hover {
+    color: var (--accent-color-2)
+}
+
+.row h3 {
+    color: var(--secondary-color);
+    font-size: 18px;
 }
 
 
@@ -101,6 +133,10 @@ section h3 {
     font-size: 40px;
 }
 
+.hero h2 {
+
+}
+
 .hero img {
     max-height: 500px;
 width: 100%;
@@ -109,6 +145,55 @@ display:flex;
 
 .hero img h3 {
     text-decoration: none;
+}
+
+.hero-image {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(../assets/images/hero-banner.png) no-repeat center;
+background-size: cover;
+}
+
+.container2{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container2 h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    margin: 0;
+    text-shadow: 0 0 10px var(--accent-color);
+}
+
+.container2 h1 span{
+    border: 10px solid white;
+    padding: 6px 14px;
+    display:inline-block
+}
+.des{
+    margin:20px;
+    display: block;
+    font-size: 26px;
+    text-shadow: 0 0 10px black;
+}
+
+.btn{
+    color: var(--secondary-color);
+    padding: 10px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: pink;
+    border-radius: 8px;
+
+
 }
 
 .box-1 {
@@ -150,16 +235,15 @@ main {
 .footer {
   text-align: center;
   padding: 20px;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
+  color: var(--secondary-color);
   font-size: 20px;
-  background-color: var(--primary-color);
+  background-color: var(--main-bg-color);
 }
 
 .footer a {
     padding:5px;
     text-decoration: none;
-    color: white;
+    color: var(--secondary-color);
 }
 
 .footer p {
