@@ -48,6 +48,8 @@ header {
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 header h1 {
@@ -68,7 +70,7 @@ header li {
 .nav-img {
     width: 50px;
     height: 50px;
-    justify-content: center;
+    justify-content: space-around;
     color: var(--secondary-color);
     font-size: 18px;
     text-decoration: none; 
@@ -125,7 +127,6 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     padding-bottom: 20px;
     background-color: white;
 }
@@ -138,6 +139,29 @@ main {
 
 .box-2 h3 {
     font-size: 24px;
-    font-display: center;
     color: var(--secondary-color);
+}
+
+.box-2 p {
+    padding: 10px;
+    color: var(--secondary-color);
+    font-size: 16px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: var(--primary-color);
+}
+
+footer a {
+    padding:5px;
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    padding: 5px;
 }
