@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,31 +12,39 @@
 
 <body>
     <header>
-        <h1>Katya Juliet Lerner's Porfolio</h1>
+        <h1>Katya Juliet Lerner</h1>
         <nav>
             <div class="container1">
                 <div class="row">
                     <div class="box-1">
                         <div class="row img">
-                            <img src="./assets/images/about.png" alt="about icon">
+                            <a href="#about">
+                                <img src="./assets/images/about.png" alt="about icon">
+                            </a>
                         </div>
                     </div>
 
                     <div class="box-1">
                         <div class="row img">
-                            <img src="./assets/images/skills.png">
+                            <a href="#skills">
+                                <img src="./assets/images/skills.png">
+                            </a>
                         </div>
                     </div>
 
                     <div class="box-1">
                         <div class="row img">
-                            <img src="./assets/images/portfolio.png">
+                            <a href="#portfolio">
+                                <img src="./assets/images/portfolio.png">
+                            </a>
                         </div>
                     </div>
 
                     <div class="box-1">
                         <div class="row img">
-                            <img src="./assets/images/contact.png">
+                            <a href="#contact">
+                                <img src="./assets/images/contact.png">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +55,7 @@
         <div class="container2">
             <h1><span>Buzzword Consulting</span></h1>
             <span class="des">Web Developer // Web Designer</span>
-            <a class="btn" href="#">Hire Me</a>
+            <div class="btn" id="btn"></div>
         </div>
     </section>
 
@@ -57,26 +66,22 @@
                 About
             </h3>
         </div>
+    </main>
 
+    <main id="skills">
         <div class="box-2">
             <h3>
                 Skills
             </h3>
         </div>
+    </main>
 
-        <div class="box-2">
-            <h3>
-                Portfolio
-            </h3>
-        </div>
-
-        <div class="box-2">
-            <h3>
-                Contact
-            </h3>
-        </div>
-        </di>
-
+    <main id="portfolio">
+    <div class="box-2">
+        <h3>
+            Portfolio
+        </h3>
+    </div>
     </main>
 
     <section>
@@ -84,10 +89,10 @@
     </section>
 
     <!-- Footer Start -->
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <a href="mailto:katyajuliet22@gmail.com" target="_blank">Email Katya Juliet</a>
         <p>
-            &copy; 2022 Made by Katya Juliet Lerner. All Rights Reserved.
+            &copy;2022 by Katya Juliet Lerner. All Rights Reserved.
         </p>
     </footer>
     <!-- Footer End -->
