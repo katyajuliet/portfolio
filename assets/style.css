@@ -186,7 +186,7 @@ display:flex;
     text-shadow: 0 0 10px black;
 }
 
-.btn{
+.container2-btn{
     color: var(--secondary-color);
     padding: 10px 24px;
     font-size: 20px;
@@ -197,7 +197,7 @@ display:flex;
     position: absolute;
 }
 
-.btn:hover{
+.container2-btn:hover{
     opacity: 0.8;
 
 }
