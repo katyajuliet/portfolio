@@ -302,8 +302,63 @@ main {
  /* ID selectors end */
 
 /* grid section start*/
+aside {
+    flex: 1;
+    background-color: var(--accent-color);
+    padding: 40px;
+    text-align: center;
+  }
 
+  aside h2{
+color: white;
+padding: 10px;
+font-size: 28px;
 
+  }
+
+  aside p{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .portfolio {
+    flex: 4;
+    background-color: var(--secondary-color);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    border-style: black solid;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+  }
+  
+  .card header {
+    padding: 20px;
+    width: 100%;
+    font-size: 22px;
+    justify-content: center;
+    color: var(--secondary-color);
+  }
+  
+  .card p {
+    text-align: left;
+    justify-content: center;
+    padding-top: 10px;
+    color: var(--secondary-color);
+    font-size: 16px;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
 /* grid section end */
 
 
@@ -331,9 +386,6 @@ main {
 /* media queries start */
 @media only screen and (max-width: 896px) {
     /* For mobile phones: */
-[class="#"] {
-
-    }
   }
 
   /* media queries end */
