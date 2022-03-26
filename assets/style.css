@@ -3,7 +3,7 @@
     --header-color: white;
     --secondary-color: #0C6980;
     --accent-color: #9FCCC3;
-    --accent-color-2: #26F7B2;
+    --accent-color-2: #cbf0e3;
     --main-bg-color: #9FCCC3;
     --main-border-color: #1F628E;
     }
@@ -48,7 +48,7 @@ header {
 header h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
-    color: white;
+    color: var(--secondary-color);
     font-size: 28px;
     display: inline-flex;
     padding-top: 24px;
@@ -275,16 +275,15 @@ flex-container {
         margin-left: 25px;
     }
 
-
 .flex-child-2 {
 flex:3;
 justify-content:left;
+padding: 25px;
 }
 
 .flex-child-2 h2 {
     font-size: 36px;
     color: white;
-    padding: 25px;
     margin: 0;
 }
 
@@ -293,32 +292,28 @@ justify-content:left;
     color: white;
     text-align: left;
     margin-right: 60px;
-    padding: 10px;
+    padding: 10px  0px 10px 0px;
 }
-
-
-section3 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-    background-color: var(--accent-color);
-    border: 10px solid var(--primary-color);
-    padding: 6px 10px;
-}
-
-section3 img {
-    max-width: 150px;
-    max-height: 350px;
-    border-radius: 40px;
-
-}
-
-
-
 
 /* bio section start */
+/* skills section start */
 
+#skills {
+    background-color: var(--accent-color-2);
+    display:block;
+    padding: 20px;
+    text-align: center;
+}
+
+#skills h2 {
+color: white;
+}
+
+#skills p {
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 /* portfolio card start */
   .portfolio {
@@ -331,18 +326,19 @@ section3 img {
   }
   
   .card {
-    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
     border-radius: 10px;
     padding: 10px;
     flex: 0 0 400px;
   }
   
   .card header {
+      border: none;
     padding: 20px;
     width: 100%;
     font-size: 22px;
     justify-content: center;
-    color: var(--secondary-color);
+    color: white;
   }
   
   .card p {
@@ -351,6 +347,7 @@ section3 img {
     padding-top: 10px;
     color: var(--secondary-color);
     font-size: 16px;
+    color: white;
   }
   
   .card img {
@@ -383,8 +380,41 @@ section3 img {
 /* footer end */
 
 /* media queries start */
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 525px) {
     /* For mobile phones: */
+    flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-child-1 img {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 50%;  
+    }
+    .flex-child-2 h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .flex-child-2 p {
+        text-align: left;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 70%;  
+    }
+.container2 h1 {
+    font-size: 40px;
+}
+#btn {
+    top: 250px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
   }
 
   /* media queries end */
