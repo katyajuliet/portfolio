@@ -206,7 +206,7 @@ display:flex;
 #btn{
     width:200px;
     height: 60px;
-    top: 50px;
+    top: 300px;
     left: 50%;
     transform: translate(-50%, -50%);
     background: var(--main-bg-color);
@@ -214,6 +214,7 @@ display:flex;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 10px var(--accent-color);
+    position: absolute;
 }
 
 #btn::before{
