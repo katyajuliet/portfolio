@@ -38,7 +38,7 @@ body {
 header {
     background-color: var(--main-bg-color);
     border-bottom: var(--secondary-color) solid 3px;
-    padding: 15px;
+    padding: 0px 15px;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
@@ -303,6 +303,7 @@ main {
 
 /* grid section start*/
 
+
 /* grid section end */
 
 
@@ -323,7 +324,7 @@ main {
 }
 
 .footer p {
-    padding: 5px;
+    padding: 7px;
 }
 /* footer end */
 
