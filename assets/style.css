@@ -4,7 +4,7 @@
     --secondary-color: #0C6980;
     --accent-color: #9FCCC3;
     --accent-color-2: #26F7B2;
-    --main-bg-color: pink;
+    --main-bg-color: #9FCCC3;
     --main-border-color: #1F628E;
     }
     /* root varients end */
@@ -44,7 +44,7 @@
 }
 
 header {
-    background-color: pink;
+    background-color: var(--main-bg-color);
     border-bottom: var(--secondary-color) solid 3px;
     padding: 25px;
     flex-direction: row;
@@ -54,12 +54,13 @@ header {
 }
 
 header h1 {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
     color: var(--secondary-color);
     font-size: 28px;
     display: inline-flex;
-    padding-top: 20px;
-    letter-spacing: 0.3em;
+    padding-top: 24px;
+    text-transform: uppercase;
 }
 
 header li {
@@ -152,7 +153,7 @@ display:flex;
     position: relative;
     height: 500px;
     overflow: hidden;
-    background: url(../assets/images/hero-banner.png) no-repeat center;
+    background: url(../assets/images/hero2.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -212,12 +213,13 @@ display:flex;
     cursor: pointer;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 0 0 10px var(--accent-color);
 }
 
 #btn::before{
     font-family: sans-serif;
     color: var(--secondary-color);
-    content: "Hire Me";
+    content: "Work Together";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -234,7 +236,7 @@ display:flex;
 font-family: 'ionicons';
 content: '\f141';
 font-size: 40px;
-color: red;
+color: var(--primary-color);
 position:absolute;
 top: 50%;
 left: 50%;
