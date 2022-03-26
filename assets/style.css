@@ -26,7 +26,9 @@
     padding: 0;
     margin: 0;
 }
+/* universal styling end */
 
+/* ID selectors */
 #about {
 
 }
@@ -42,7 +44,13 @@
 #contact {
 
 }
+/* ID selectors */
 
+body {
+
+}
+
+/* header start */
 header {
     background-color: var(--main-bg-color);
     border-bottom: var(--secondary-color) solid 3px;
@@ -66,8 +74,9 @@ header h1 {
 header li {
     flex-direction: row;
 }
+/* header end */
 
-
+/* navbar start */
 nav {
     display: flex;
 }
@@ -79,7 +88,6 @@ nav {
     font-size: 18px;
     text-decoration: none; 
     border-bottom:none;
-
 }
 
 .container1 {
@@ -112,11 +120,20 @@ nav {
     font-size: 18px;
 }
 
+.box-1 {
+    margin:auto;
+    flex: 0 0 0;
+    padding: 15px;
+    }
+    
+    .box-1 h3 {
+        font-size: 18px;
+        font-display: center;
+        text-decoration: none;
+    }
+/* navbar end */
 
-body {
-
-}
-
+/* section hero start */
 section {
     display: flex;
     flex-direction: row;
@@ -203,6 +220,7 @@ display:flex;
 
 }
 
+/* hero button start */
 #btn{
     width:200px;
     height: 60px;
@@ -250,18 +268,11 @@ top: 140px;
     transition: all 0.5s;
 
 }
-.box-1 {
-margin:auto;
-flex: 0 0 0;
-padding: 15px;
-}
+/* hero button end */
 
-.box-1 h3 {
-    font-size: 18px;
-    font-display: center;
-    text-decoration: none;
-}
+/* section hero end */
 
+/* main section start */
 main {
     display: flex;
     flex-direction: row;
@@ -286,6 +297,9 @@ main {
     color: var(--secondary-color);
     font-size: 16px;
 }
+/* main section end */
+
+/* footer start */
 .footer {
   text-align: center;
   padding: 20px;
@@ -303,10 +317,14 @@ main {
 .footer p {
     padding: 5px;
 }
+/* footer end */
 
+/* media queries start */
 @media only screen and (max-width: 896px) {
     /* For mobile phones: */
 [class="#"] {
 
     }
   }
+
+  /* media queries end */
