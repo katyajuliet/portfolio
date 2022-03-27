@@ -665,8 +665,8 @@ flex-wrap: wrap;
   }
 /* mobile devices size 540 end */
 
-/* mobile devices size 320 start  */
-@media only screen and (max-width: 375px) {
+/* mobile devices size 420 start  */
+@media only screen and (max-width: 420px) {
 header {
     justify-content: center;
 }
@@ -716,6 +716,15 @@ font-size: 20px;
 margin-bottom: 20px;
 }
 
+.card header, .card2 header {
+    overflow:hidden;
+}
+
+.card2 h2 {
+    font-size: 20px;
+    background-size: contain;
+}
+
 .card2 img {
 width: 325px;
 height: 125px;
@@ -733,7 +742,7 @@ border-radius: 10px;
 font-size: 16px;
 }
 }
-/* mobile devices size 320 end  */
+/* mobile devices size 420 end  */
 
 
 /* mobile devices size 280 start  */
