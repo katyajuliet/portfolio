@@ -450,8 +450,155 @@ font-size: 30px;
 
 /* media queries start */
 
-/* mobile devices size 525 start */
-@media only screen and (max-width: 525px) {
+/* devices size 1025 start  */
+@media only screen and (max-width: 1025px) {
+    flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-child-1 img {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 70%;  
+    }
+    .flex-child-2 h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .flex-child-2 p {
+        text-align: left;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 80%;  
+    }
+
+}
+/* devices size 1025 end  */
+
+/* mobile devices size 820 start  */
+header {
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+.container2 h1 {
+    font-size: 60px;
+}
+#btn {
+    top: 275px;
+}
+.des {
+    font-size: 24px;
+}
+
+
+.portfolio {
+    flex-wrap: wrap;
+        }
+
+
+    .portfolio2 {
+        flex-wrap: wrap;
+            }
+flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-child-1 img {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%;  
+}
+.flex-child-2 h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.flex-child-2 p {
+    text-align: left;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 70%;  
+}
+}
+/* mobile devices size 820 end  */
+
+/* mobile devices size 768 start  */
+@media only screen and (max-width: 768px) {
+
+    header {
+        justify-content: center;
+    }
+
+    header h1 {
+        font-size: 30px;
+        font-weight: 300px;
+    }
+    flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-child-1 img {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 50%;  
+    }
+    .flex-child-2 h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .flex-child-2 p {
+        text-align: left;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 80%;  
+    }
+
+    .portfolio {
+flex-wrap: wrap;
+    }
+
+.container2 h1 {
+    font-size: 40px;
+}
+#btn {
+    top: 225px;
+}
+.des {
+    font-size: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+
+.card2 img {
+    width: 450px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+#skills ul li p {
+    font-size: 16px;
+}
+  }
+/* mobile devices size 768 end  */
+
+/* mobile devices size 540 start */
+@media only screen and (max-width: 540px) {
 
     header {
         justify-content: center;
@@ -515,10 +662,10 @@ flex-wrap: wrap;
 
 
   }
-/* mobile devices size 525 end */
+/* mobile devices size 540 end */
 
 /* mobile devices size 320 start  */
-@media only screen and (max-width: 525px) {
+@media only screen and (max-width: 320px) {
 header {
     justify-content: center;
 }
@@ -585,11 +732,8 @@ border-radius: 10px;
 font-size: 16px;
 }
 }
-
 /* mobile devices size 320 end  */
 
-/* mobile devices size start  */
-/* mobile devices size end  */
 
 /* mobile devices size start  */
 /* mobile devices size end  */
