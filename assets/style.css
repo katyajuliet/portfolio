@@ -282,14 +282,14 @@ padding: 25px;
 }
 
 .flex-child-2 h2 {
-    font-size: 36px;
-    color: white;
+    font-size: 30px;
+    color: var(--secondary-color);
     margin: 0;
 }
 
 .flex-child-2 p {
     font-size: 18px;
-    color: white;
+    color: var(--secondary-color);
     text-align: left;
     margin-right: 60px;
     padding: 10px  0px 10px 0px;
@@ -309,7 +309,7 @@ color: white;
 margin-bottom: 20px;
 margin-top: 20px;
 text-align: center;
-font-size: 26px;
+font-size: 30px;
 }
 
 #skills p {
@@ -384,8 +384,15 @@ font-size: 26px;
     color: var(--secondary-color);
 }
 
+.footer h3{
+    padding: 10px;
+    color: var(--secondary-color);
+    font-size: 30px;
+}
+
 .footer p {
-    padding: 7px;
+    padding: 20px;
+    font-size: 16px;
 }
 /* footer end */
 
