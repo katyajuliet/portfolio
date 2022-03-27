@@ -8,6 +8,7 @@
     --main-border-color: #1F628E;
     }
     /* root varients end */
+    /*  */
 
     /* comment out 
     <img src="./assets/images/about.png">
@@ -30,9 +31,11 @@
 
 /* ID selectors */
 
+/* body start */
 body {
 
 }
+/* body end */
 
 /* header start */
 header {
@@ -187,6 +190,7 @@ section h2 {
     text-shadow: 0 0 10px black;
 }
 
+/* hero button extra styling start*/
 .container2-btn{
     color: var(--secondary-color);
     padding: 10px 24px;
@@ -197,6 +201,7 @@ section h2 {
     transition: 0.3s all;
     position: absolute;
 }
+/* her button extra styling end */
 
 .container2-btn:hover{
     opacity: 0.8;
@@ -299,6 +304,7 @@ padding: 25px;
 }
 
 /* bio section start */
+
 /* skills section start */
 
 #skills {
@@ -325,7 +331,7 @@ font-size: 30px;
     text-align:center;
     border-bottom: 2px dotted white;
 }
-
+/* skills section end */
 
 /* portfolio card start */
   .portfolio {
@@ -371,7 +377,7 @@ font-size: 30px;
 
 /* portfolio card end */
 
-/* card 2 */
+/* portfolio card 2 start */
 
   .portfolio2 {
         flex: none;
@@ -413,6 +419,7 @@ font-size: 30px;
     height: 275px;
     border-radius: 10px;
   }
+  /* portfolio card2 end */
 
 
 /* footer start */
@@ -443,8 +450,9 @@ font-size: 30px;
 /* footer end */
 
 /* media queries start */
+
+/* mobile devices size start */
 @media only screen and (max-width: 525px) {
-    /* For mobile phones: */
 
     header {
         justify-content: center;
@@ -505,5 +513,15 @@ flex-wrap: wrap;
     font-size: 16px;
 }
   }
+/* mobile devices size end */
+
+/* mobile devices size start  */
+/* mobile devices size end  */
+
+/* mobile devices size start  */
+/* mobile devices size end  */
+
+/* mobile devices size start  */
+/* mobile devices size end  */
 
   /* media queries end */
