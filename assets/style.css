@@ -120,7 +120,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 20px;
-    background-color: white;
+    background-color: var(--accent-color);
 }
 
 section h3 {
@@ -299,21 +299,32 @@ padding: 25px;
 /* skills section start */
 
 #skills {
-    background-color: var(--accent-color-2);
-    display:block;
+    display: block;
     padding: 20px;
-    text-align: center;
+    justify-content: center;
 }
 
 #skills h2 {
-color: white;
+color: var(--secondary-color);
+margin-bottom: 20px;
+margin-top: 20px;
+text-align: center;
+font-size: 26px;
 }
 
-#skills p {
-    color: black;
-    margin-left: 20%;
-    margin-right: 20%;
+#skills ul li {
+    display: flex;
+    text-align: center;
 }
+
+#skills ul li p {
+    color: var(--secondary-color);
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+}
+
 
 /* portfolio card start */
   .portfolio {
@@ -321,7 +332,6 @@ color: white;
     background-color: var(--secondary-color);
     padding: 40px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
   }
   
@@ -351,8 +361,9 @@ color: white;
   }
   
   .card img {
-    width: 100%;
-    border-radius: 40px;
+    width: 350px;
+    height: 175px;
+    border-radius: 10px;
   }
   
 /* portfolio card end */
@@ -382,6 +393,15 @@ color: white;
 /* media queries start */
 @media only screen and (max-width: 525px) {
     /* For mobile phones: */
+
+    header {
+        justify-content: center;
+    }
+
+    header h1 {
+        font-size: 22px;
+        font-weight: 300px;
+    }
     flex-container {
         display: flex;
         flex-direction: column;
@@ -404,6 +424,11 @@ color: white;
         margin-right: auto;
         width: 70%;  
     }
+
+    .portfolio {
+flex-wrap: wrap;
+    }
+
 .container2 h1 {
     font-size: 40px;
 }
@@ -415,6 +440,9 @@ color: white;
     margin-bottom: 20px;
 }
 
+#skills ul li p {
+    font-size: 16px;
+}
   }
 
   /* media queries end */
