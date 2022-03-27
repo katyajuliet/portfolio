@@ -479,6 +479,7 @@ font-size: 30px;
 /* devices size 1025 end  */
 
 /* mobile devices size 820 start  */
+@media only screen and (max-width: 820px) {
 header {
     justify-content: center;
 }
@@ -665,7 +666,7 @@ flex-wrap: wrap;
 /* mobile devices size 540 end */
 
 /* mobile devices size 320 start  */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 header {
     justify-content: center;
 }
@@ -735,7 +736,77 @@ font-size: 16px;
 /* mobile devices size 320 end  */
 
 
-/* mobile devices size start  */
-/* mobile devices size end  */
+/* mobile devices size 280 start  */
+
+@media only screen and (max-width: 280px) {
+    header {
+        justify-content: center;
+    }
+    
+    header h1 {
+        font-size: 16px;
+    }
+    flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex-child-1 img {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 50%;  
+    }
+    .flex-child-2 h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .flex-child-2 p {
+        text-align: left;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 100%;  
+    }
+    
+    .portfolio, .portfolio2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70%;
+    }
+
+    .card, .card2 {
+        justify-content: center;
+    }
+    
+    .container2 h1 {
+    font-size: 20px;
+    }
+    #btn {
+    top: 225px;
+    }
+    .des {
+    font-size: 20px;
+    }
+   
+    .card2 img {
+    width: 125px;
+    height: 95px;
+    border-radius: 10px;
+    }
+    
+    .card img {
+        width: 125px;
+        height: 95px;
+        border-radius: 10px;
+        }
+    
+    
+    #skills ul li p {
+    font-size: 16px;
+    }
+    }
+
+/* mobile devices size 280 end  */
 
   /* media queries end */
