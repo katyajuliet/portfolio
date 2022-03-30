@@ -3,6 +3,9 @@ March 26, 2022
 
 Link to page:https://katyajuliet.github.io/portfolio/
 
+Git Hub Public Repo for Katya Juliet: 
+https://github.com/katyajuliet/portfolio
+
 Desktop and responsive for mobile
 
 Includes:
@@ -14,7 +17,4 @@ Contact
 HTML and Advanced CSS using flex box styling.
 
 Image path to view homepage screenshot:
-"./assets/images/portfolio-banner.png" 
-
-Git Hub Public Repo for Katya Juliet: 
-https://github.com/katyajuliet/portfolio
+<img src="./assets/images/portfolio-banner.png" alt="portfolio banner" title="Homepage Screenshot">
