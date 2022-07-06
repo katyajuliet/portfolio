@@ -335,7 +335,6 @@ font-size: 30px;
 
 /* portfolio card start */
   .portfolio {
-    flex: none;
     background-color: var(--secondary-color);
     padding: 40px;
     display: flex;
@@ -372,7 +371,7 @@ font-size: 30px;
     width: 370px;
     height: 175px;
     border-radius: 10px;
-    padding:none;
+    padding: none;
   }
 
 /* portfolio card end */
