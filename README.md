@@ -1,10 +1,10 @@
-Online Portfolio for Katya Juliet Lerner
-March 26, 2022
+# Online Portfolio for Katya Juliet Lerner
 
-Link to page:https://katyajuliet.github.io/portfolio/
+# Link
+[Live](https://katyajuliet.github.io/portfolio/)
 
-Git Hub Public Repo for Katya Juliet: 
-https://github.com/katyajuliet/portfolio
+# GitHub
+[Repo](https://github.com/katyajuliet/portfolio)
 
 Desktop and responsive for mobile
 
